@@ -42,6 +42,7 @@
 
 code {
     direction: ltr;
+    font-family: ui-monospace,'SFMono-Regular',Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;
 }
 
 div.highlight,
@@ -65,4 +66,14 @@ pre {
 div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
+}
+
+@font-face {
+    font-family: 'Overpass Regular';
+    src: url(https://cdn.jsdelivr.net/gh/GuanyuDu/cdn_source/fonts/Overpass/Overpass-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Overpass SemiBold';
+    src: url(https://cdn.jsdelivr.net/gh/GuanyuDu/cdn_source/fonts/Overpass/Overpass-SemiBold.ttf);
 }

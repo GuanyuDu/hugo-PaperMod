@@ -215,8 +215,18 @@
 
 .post-content blockquote {
     margin: 20px 0;
-    padding: 0 14px;
-    border-inline-start: 3px solid var(--primary);
+    padding: 8px 8px 8px 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .1);
+    border-inline-start: 3px solid rgba(200, 200, 200, 1);
+}
+
+.post-content blockquote p {
+    margin-bottom: 0 !important;
+}
+
+.dark .post-content blockquote {
+    background-color: rgba(200, 200, 200, .2);
 }
 
 .post-content hr {
