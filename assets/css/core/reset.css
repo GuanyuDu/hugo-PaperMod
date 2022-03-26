@@ -130,6 +130,11 @@ img {
     max-width: 100%;
 }
 
+.header-flag {
+    height: 20px;
+    margin-bottom: 5px;
+}
+
 .first-entry {
     min-height: 0 !important;
 }

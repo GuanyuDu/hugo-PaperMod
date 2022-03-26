@@ -84,7 +84,10 @@
                     {{- range . -}}
                     {{- if ne $lang .Lang }}
                     <li>
-                        <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
+                        <img class="header-flag" src="https://dududu.top/blog/assets/298542_china_china.png" alt="China">
+                    </li>
+                    <li>
+                        <a href="#" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
                             aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
                             {{- if (and $.Site.Params.displayFullLangName (.Language.LanguageName)) }}
                             {{- .Language.LanguageName | emojify -}}
